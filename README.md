@@ -1,70 +1,70 @@
-# Getting Started with Create React App
+<h1 align="center">💸 Millionaire-Quiz</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p align="center">
+  <a href="https://miladmo68.github.io/Millionaire-Quiz/"><b>🔗 Live Demo</b></a> •
+  <a href="https://github.com/miladmo68/Millionaire-Quiz"><b>📦 Repository</b></a>
+</p>
 
-## Available Scripts
+<p align="center">
+  A fun and competitive quiz app inspired by the "Who Wants to Be a Millionaire" game format. Built with React and Vite, this scaffold provides a foundation for building quiz games with lifelines, progressive difficulty, scoring, and timed responses.
+</p>
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## ​ Screenshot
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<p align="center">
+<img width="2880" height="1582" alt="Millionaire-Quiz" src="https://github.com/user-attachments/assets/4d46d13c-f097-44cc-8899-d5b40a3360f3" />
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+  </p>
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## ​ Tech Stack
 
-### `npm run build`
+<p align="center">
+  <img src="https://img.shields.io/badge/React-18-blue?style=for-the-badge&logo=react&logoColor=white" />
+  <img src="https://img.shields.io/badge/Vite-latest-orange?style=for-the-badge&logo=vite&logoColor=white" />
+  <img src="https://img.shields.io/badge/JavaScript-ES6-yellow?style=for-the-badge&logo=javascript&logoColor=black" />
+  <img src="https://img.shields.io/badge/ESLint-configured-4B32C3?style=for-the-badge&logo=eslint&logoColor=white" />
+  <img src="https://img.shields.io/badge/Prettier-setup-F7B93E?style=for-the-badge&logo=prettier&logoColor=black" />
+</p>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## ​ Features
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+| Feature                | Description |
+|------------------------|-------------|
+| **Quiz Structure**     | Mimics the “Who Wants to Be a Millionaire” format with progressive questions. |
+| **Lifelines Ready**    | Prepared for lifelines like 50/50, Ask the Audience, etc. |
+| **Timed Responses**    | Scaffold supports timed question flow (to be implemented). |
+| **Score Tracking**     | Base to add scoring logic and track progress. |
+| **Fast Dev Setup**     | Powered by Vite for quick iteration and hot module reloading. |
+| **Quality Code**       | ESLint & Prettier pre-configured for consistent formatting. |
+| **Extensible**         | Ready to expand with animations, high scores, or user authentication. |
 
-### `npm run eject`
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+<p align="center">
+  <b>👨‍💻 Author: Milad Mohammadi</b><br>
+  🌐 <a href="https://miladweb.com">Website</a> • 💼 <a href="https://linkedin.com/in/miladmo68">LinkedIn</a> • 🐙 <a href="https://github.com/miladmo68">GitHub</a>
+</p>
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## ​ Getting Started
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```bash
+# 1) Clone the repository
+git clone https://github.com/miladmo68/Millionaire-Quiz.git
+cd Millionaire-Quiz
 
-## Learn More
+# 2) Install dependencies
+npm install
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+# 3) Run development server
+npm run dev
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+# 4) Build for production
+npm run build
